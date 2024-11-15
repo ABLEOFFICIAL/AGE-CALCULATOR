@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(135deg, rgb(74, 74, 216), rgb(253, 139, 158));
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 70vw;
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 7rem;
+    padding: 2rem 1rem;
+}
+
+.title {
+    color: #fff;
+    font-size: 3rem;
+    width: 37%;
+    margin-bottom: 1rem;
+}
+
+.yellow {
+    color: yellow;
+}
+
+#input {
+    background-color: rgba(255,255,255,0.3);
+    width: 90%;
+    max-width: 600px;
+    /* height: 4rem; */
+    padding: 2rem 1.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#date {
+    height: 2.5rem;
+    padding: .3rem;
+    width: 65%;
+    margin-left: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    background-color: yellow; 
+    height: 2.5rem;
+    padding: .3rem; 
+    width: 25%;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #date {
+        width: 90%;
+        margin-inline: auto;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    #btn {
+        width: 50%;
+        display: block;
+        margin-inline: auto;
+    }
+}
+
+#btn:active {
+    background-color: rgb(221, 221, 3); 
+}
+
+#result {
+    color: #fff;
+    margin: 1.3rem 0 0 0;
+}
