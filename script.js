@@ -52,7 +52,7 @@ calc.addEventListener('click', function(){
             m3--;
           }
 
-          result.innerHTML = `you are ${y3}years, ${m3}months, ${d3}days old`;
+          result.innerHTML = `you are ${y3} years, ${m3} months, ${d3} days old`;
         // console.log(`i was born in the year , ${m3}, ${d3}`);
     }
 })
